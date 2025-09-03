@@ -1,0 +1,631 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+    align-items: left;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 35px;
+}
+
+.portdolio {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    padding-left: 380px;
+    padding-top: 200px;
+    flex-direction: column;
+    row-gap: 10px;
+    color: rgb(5, 5, 154);
+
+
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background: url(https://tentcomm.com/wp-content/uploads/2024/10/1300x650-x1.5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    box-sizing: border-box;
+    border-radius: 19px;
+    height: 40px;
+    width: 150px;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.pt {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.mid-logo {
+    display: flex;
+
+    height: 190px;
+
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
+
+    padding-bottom: 120px;
+
+
+}
+
+
+.work-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.work-image {
+    display: flex;
+    height: 80vh;
+    width: 70vh;
+    gap: 20px;
+}
+
+.work-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.work-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    margin-right: 30px;
+}
+
+.work-text h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.quote-button {
+
+    height: 50px;
+    width: 200px;
+    background-color: #0077b6;
+    color: white;
+    font-size: 18px;
+
+    border: none;
+
+}
+
+.work-pro {
+    background-color: rgb(231, 237, 243);
+    height: 150PX;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.bookameeting {
+    height: 50px;
+    width: 200px;
+    background-color: #0077b6;
+    color: white;
+    font-size: 18px;
+
+    border: none;
+
+}
+
+.great-team {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.team-member {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1 1 15%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    width: 80%;
+    max-width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+    margin-bottom: 15px;
+}
+
+
+.shadow-pic {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+
+    align-items: center;
+
+}
+
+
+.s-pic {
+    width: 80%;
+    max-width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+    display: flex;
+
+    margin-bottom: 15px;
+}
+
+
+
+
+.meet-team-btn {
+    width: 11%;
+
+    background-color: #0077b6;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+
+
+
+    margin-left: 42%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.meet-team-btn:hover {
+    background-color: #005f8c;
+}
+
+.results-focused {
+
+    padding-top: ;
+    background-color: rgb(231, 237, 243);
+    height: 150PX;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.digital-marketing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.image-content img {
+    width: 600px;
+
+    height: 500px;
+    border-radius: 8px;
+
+}
+
+.seewhat {
+    display: flex;
+    align-items: center;
+    /* padding-bottom: 165px; */
+    justify-content: center;
+    padding-top: 18px;
+}
+
+.collaborating {
+    background-color: #dae2e6;
+    height: 250px;
+    width: 100%;
+
+}
+
+.olk {
+    display: flex;
+    justify-content: left;
+    padding-left: 18%;
+    align-items: center;
+    gap: 2%;
+    padding-top: 2%;
+}
+
+/* .footer{
+    background-color: rgb(209, 213, 216);
+    height: 300px;
+    width: 100%;
+    display: flex;
+    gap: 5%;
+  padding-top: 20%;
+    justify-content: center;
+    /* align-items: center; */
+/* } */
+
+.fotlogo {
+    height: 100px;
+    width: 200px;
+    align-items: left;
+}
+
+.fotbtn {
+    background-color: #005f8c;
+    color: white;
+}
+
+.f12 {
+    display: flex;
+    gap: 15px;
+}
+
+ .last-div {
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: rgb(158, 184, 184);
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.logo-div {
+    padding-bottom: 150px;
+}
+
+.last-img {
+    width: 250px;
+    height: 150px;
+
+}
+
+.contact-div {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.communication-div {
+    display: flex;
+    gap: 50px;
+}
+
+.line-div {
+    background-color: rgb(11, 11, 102);
+    height: 2px;
+    width: 1000px;
+
+}
+
+.location-div {
+    display: flex;
+    gap: 50px;
+}
+
+.last-button {
+    background-color: gainsboro;
+    border: 2px black;
+    height: 30px;
+    width: 150px;
+    font-size: 2vmin;
+    transition: 0.3s ease in ease-in-out;
+}
+
+.last-button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.firstcustom-icon {
+    background-color: gainsboro;
+    color: black;
+    display: flex;
+    height: 20px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px black;
+    padding: 7px;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.firstcustom-icon:hover {
+    color: rgb(11, 11, 102);
+    background-color: aliceblue;
+}
+
+.secondcustom-icon {
+    background-color: gainsboro;
+    color: black;
+    display: flex;
+    height: 20px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px black;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.secondcustom-icon:hover {
+    color: rgb(11, 11, 102);
+    background-color: aliceblue;
+}
+
+.thirdcustom-icon {
+    background-color: gainsboro;
+    color: black;
+    display: flex;
+    height: 20px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px black;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.thirdcustom-icon:hover {
+    color: rgb(11, 11, 102);
+    background-color: aliceblue;
+}
+
+.fourthcustom-icon {
+    background-color: gainsboro;
+    color: black;
+    display: flex;
+    font-size: 15px;
+    height: 20px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px black;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.fourthcustom-icon:hover {
+    color: rgb(11, 11, 102);
+    background-color: aliceblue;
+}
+
+.fifthcustom-icon {
+    background-color: gainsboro;
+    color: black;
+    display: flex;
+    height: 20px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px black;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.fifthcustom-icon:hover {
+    color: rgb(11, 11, 102);
+    background-color: aliceblue;
+}
+
+
+
+@media (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .left {
+        padding-left: 100px;
+        padding-top: 100px;
+    }
+
+    .work-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .work-image {
+        width: 90%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .digital-marketing {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-content img {
+        width: 90%;
+        height: auto;
+    }
+
+    .location-div {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .communication-div {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .logo {
+        height: 80px;
+        width: 150px;
+    }
+
+    .left {
+        padding-left: 20px;
+        padding-top: 50px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .work-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .work-text h1 {
+        font-size: 24px;
+    }
+
+    .work-text p {
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    .team-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shadow-pic {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .meet-team-btn {
+        width: 60%;
+        margin-left: 0;
+    }
+
+    .last-div {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        height: auto;
+    }
+
+    .line-div {
+        width: 90%;
+    }
+
+    .location-div,
+    .communication-div {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }}
+
+    ul {
+        gap: 10px;
+    }
+
+    button,
+    .quote-button,
+    .bookameeting,
+    .last-button {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .mid-logo {
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+
+    .team-member img,
+    .s-pic,
+    .image-content img {
+        width: 100%;
+        height: auto;
+    }
